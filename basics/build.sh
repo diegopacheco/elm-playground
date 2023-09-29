@@ -1,3 +1,3 @@
 #!/bin/bash
 
- elm make main.elm --output target/app.js
+ elm make src/Main.elm --output target/app.js
