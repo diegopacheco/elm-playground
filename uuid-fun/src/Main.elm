@@ -16,8 +16,6 @@ uuid = Random.step UUID.generator (Random.initialSeed 12345)
     |> Tuple.first
     |> UUID.toRepresentation Urn
 
-result = uuid
-
 main : Html a
 main =
-    span [ class "welcome-message" ] [ text result ]
+    span [ class "welcome-message" ] [ text uuid ]
